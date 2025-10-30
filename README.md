@@ -6,6 +6,7 @@ The software and code involved in paper "Machine Learning-driven Alignment Archi
 ##System Requirement
 ###Hardware Requirements
 The operating system used in this study was Windows 10, supported by Intel Core i5, NVIDIA GeForce 3090 hardware, and 48 GB of RAM.
+
 ###Software requirements
 1.	Python 3.9.6.
 2.	PyTorch 2.2.2+cu118
