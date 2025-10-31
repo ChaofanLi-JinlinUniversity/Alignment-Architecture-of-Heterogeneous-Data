@@ -21,6 +21,7 @@ The operating system used in this study was Windows 10, supported by:
 - Regex 2.5.148
 - Opencv-python 4.6.0
 - Pillow 10.3.0
+- Pytorch-grad-cam 1.5.5
 - Torchvision 0.17.2+cpu
 - Xlrd 2.0.1
 - Xlwt 1.3.0
