@@ -29,9 +29,9 @@ The operating system used in this study was Windows 10, supported by:
 Use the pip command in the terminal window to configure the above software environment, and contact the established environment in "Sublime Text".
 
 ## Demo
-Here, demonstration cases corresponding to Figs 4. d-f and Supplementary Figs. 31a-b in the paper are provided.
+Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31a-b in the paper are provided.
 
-**Running method:** Download the code from the Demo folder and run it in Sublime Text.
+**Running method:** Download the code from the "Demo" folder and run it in Sublime Text.
 
 **Expected output:** The maximum test accuracy or minimum mean square error will reach its maximum or minimum value at a sample shift of 0.
 
