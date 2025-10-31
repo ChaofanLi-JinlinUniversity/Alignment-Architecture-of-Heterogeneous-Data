@@ -1,7 +1,7 @@
 # Machine Learning-driven Alignment Architecture of Heterogeneous Data with Transient Varying Semantics
 
 ## Instructions
-The software and code involved in paper "Machine Learning-driven Alignment Architecture of Heterogeneous Data with the Transient Varying Semantics", including the synchronize triggering software and code for data generation, data processing and data alignment, as well as obtaining arc detection models. (The corresponding dataset URL)[https://www.scidb.cn/en/s/iMnaii] 
+The software and code involved in paper "Machine Learning-driven Alignment Architecture of Heterogeneous Data with the Transient Varying Semantics", including the synchronize triggering software and code for data generation, data processing and data alignment, as well as obtaining arc detection models. The dataset URL corresponding to the code is https://www.scidb.cn/en/s/iMnaii. 
 
 ## System Requirements
 
