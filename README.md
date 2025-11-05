@@ -39,8 +39,9 @@ Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31
 **Run time:** Run time can be almost ignored and forgotten, you can try to reproduce it.
 
 ## Reproducibility
-The code used for reproduction is stored in the "Task reproduction" folder. The index of the corresponding task table is shown in "Task Reproduction Index Table.pdf". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
+With regard to Modeling of Alignment and Arc Detection Models Tasks,the code used for reproduction is stored in the "Task reproduction" folder. The index of the corresponding task table is shown in "Task Reproduction Index Table.pdf". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
+The file (Alignment and modeling tasks) directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export the corresponding time shift/sample shift-test accuracy/mean square error/maximum test accuracy/minimum mean square error curve or time shift-rank correlation coefficient curve to Excel file.
 
-The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export the corresponding time shift/sample shift-test accuracy/mean square error/maximum test accuracy/minimum mean square error curve or time shift-rank correlation coefficient curve to Excel file.
+
 
 The reference range for running these code ranges from less than 1 second to several tens of hours.
