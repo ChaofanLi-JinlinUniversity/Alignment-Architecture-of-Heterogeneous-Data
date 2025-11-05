@@ -39,9 +39,13 @@ Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31
 **Run time:** Run time can be almost ignored and forgotten, you can try to reproduce it.
 
 ## Reproducibility
-With regard to Modeling of Alignment and Arc Detection Models Tasks,the code used for reproduction is stored in the "Task reproduction" folder. The index of the corresponding task table is shown in "Task Reproduction Index Table.pdf". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
-The file (Alignment and modeling tasks) directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export the corresponding time shift/sample shift-test accuracy/mean square error/maximum test accuracy/minimum mean square error curve or time shift-rank correlation coefficient curve to Excel file.
+With regard to modeling of alignment and arc detection models,the code used for reproduction is stored in the "Alignment and modeling tasks" folder. The index of the corresponding task table is shown in "Alignment and modeling Task Index Table.pdf". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
+The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export the corresponding time shift/sample shift-test accuracy/mean square error/maximum test accuracy/minimum mean square error curve or time shift-rank correlation coefficient curve to Excel file.
 
+With regard to class activation mapping task, the code used for reproduction is stored in the "Class activation mapping" folder. The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii. Download folder"B/airborne/SFT_log_0_time_shift_0.001_0". Put the code and folder "SFT_log_0_time_shift_0.001_0" into the same directory. Run the script "2_CAM_output_3C.py" using "Sublime Text" to export the folder containing class activation mapping cloud map.
 
+With regard to arc detection using optical signals, the code used for reproduction is stored in the "Optical Detection Task 1" and "Optical Detection Task 2" folders. The index of the corresponding task table is shown in Optical Detection Index Table.pdf"". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
+The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export Excel file containing arc damage detection results.
 
 The reference range for running these code ranges from less than 1 second to several tens of hours.
+
