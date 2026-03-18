@@ -28,8 +28,10 @@ The operating system used in this study was Windows 10, supported by:
 
 ### Software Installation Instructions
 1.Create a virtual environment using conda:
- ```bashconda create -n alignment python=3.9
-conda activate alignment```
+```bash
+conda create -n alignment python=3.9
+conda activate alignment
+```
 
 
 ## Demo
