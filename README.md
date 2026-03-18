@@ -27,7 +27,10 @@ The operating system used in this study was Windows 10, supported by:
 - Xlwt 1.3.0
 
 ### Software Installation Instructions
-Use the pip command in the terminal window to configure the above software environment, and contact the established environment in "Sublime Text".
+1.	Create a virtual environment using conda:
+`conda create -n alignment python=3.9`
+`conda activate alignment`
+
 
 ## Demo
 Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31a-b in the paper are provided.
