@@ -27,17 +27,17 @@ The operating system used in this study was Windows 10, supported by:
 - Xlwt 1.3.0
 
 ### Software Installation Instructions
-1.Create a virtual environment using conda:
+1. Create a virtual environment using conda:
 ```bash
 conda create -n alignment python=3.9
 conda activate alignment
 ```
-2.Install dependencies:
+2. Install dependencies:
 ```bash
 pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
-3.All scripts are designed to run from the command line. For example:
+3. All scripts are designed to run from the command line. For example:
 ```bash
 python Generate_data_and_align.py
 ```
