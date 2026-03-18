@@ -32,16 +32,19 @@ The operating system used in this study was Windows 10, supported by:
 conda create -n alignment python=3.9
 conda activate alignment
 ```
+
 2. Install dependencies:
 ```bash
 pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
+
 3. All scripts are designed to run from the command line. For example:
 ```bash
 python Generate_data_and_align.py
 ```
 You also can use any code editor (such as PyCharm or Sublime Text) to view or modify the code, but the execution is independent of the editor.
+
 
 ## Demo
 Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31a-b in the paper are provided.
