@@ -1,7 +1,7 @@
 # Machine Learning-driven Alignment Architecture of Heterogeneous Data with Transient Varying Semantics
 
 ## Instructions
-The software and code involved in paper "Machine Learning-driven Alignment Architecture of Heterogeneous Data with the Transient Varying Semantics", including the synchronize triggering software and code for data generation, data processing and data alignment, as well as obtaining arc detection models. The dataset URL corresponding to the code is https://www.scidb.cn/en/s/iMnaii. A more detailed introduction will be added after the publication of the paper.
+The software and code involved in paper "Machine Learning-driven Alignment Architecture of Heterogeneous Data with the Transient Varying Semantics", including the synchronize triggering software and code for data generation, data processing and data alignment, as well as obtaining arc detection models. The dataset URL corresponding to the code is https://www.scidb.cn/en/s/iMnaii. If you have any questions or confusion about this repository, please do not hesitate to contact the code developer via email "tel13596258061@163.com". We will maintain long-term contact with readers and optimize our repository.
 
 ## System Requirements
 
@@ -26,7 +26,7 @@ The operating system used in this study was Windows 10, supported by:
 - Xlrd 2.0.1
 - Xlwt 1.3.0
 
-### Software Installation Instructions
+### Software Installation Instructions and Script Execution
 1. Create a virtual environment using conda:
 ```bash
 conda create -n alignment python=3.9
@@ -49,7 +49,7 @@ You also can use any code editor (such as PyCharm or Sublime Text) to view or mo
 ## Demo
 Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31a-b in the paper are provided.
 
-**Running method:** Download the code from the "Demo" folder and run it in Sublime Text.
+**Running method:** Download the code from the "Demo" folder and run it.
 
 **Expected output:** The maximum test accuracy or minimum mean square error will reach its maximum or minimum value at a sample shift of 0.
 
@@ -58,15 +58,15 @@ Here, demonstration cases corresponding to Figs. 4d-f and Supplementary Figs. 31
 ## Reproducibility
 With regard to modeling of alignment and arc detection models,the code used for reproduction is stored in the "Alignment and modeling tasks" folder. The index of the corresponding task table is shown in "Alignment and modeling Task Index Table.pdf". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
 
-The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export the corresponding time shift/sample shift-test accuracy/mean square error/maximum test accuracy/minimum mean square error curve or time shift-rank correlation coefficient curve to Excel file.
+The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script to export the corresponding time shift/sample shift-test accuracy/mean square error/maximum test accuracy/minimum mean square error curve or time shift-rank correlation coefficient curve to Excel file.
 
 With regard to class activation mapping task, the code used for reproduction is stored in the "Class activation mapping" folder. The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii. Download folder"B/airborne/SFT_log_0_time_shift_0.001_0".
 
-Put the code and folder "SFT_log_0_time_shift_0.001_0" into the same directory. Run the script "2_CAM_output_3C.py" using "Sublime Text" to export the folder containing class activation mapping cloud map.
+Put the code and folder "SFT_log_0_time_shift_0.001_0" into the same directory. Run the script "2_CAM_output_3C.py" to export the folder containing class activation mapping cloud map.
 
 With regard to arc detection using optical signals, the code used for reproduction is stored in the "Optical Detection Task 1" and "Optical Detection Task 2" folders. The index of the corresponding task table is shown in "Optical Detection Index Table.pdf". The dataset used for alignment is stored in https://www.scidb.cn/en/s/iMnaii.
 
-The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script using "Sublime Text" to export Excel file containing arc damage detection results.
+The file directory for storing source code is the same as the folder for the corresponding dataset. Download the code and corresponding dataset, place the code, corresponding data folder and label data in the same root directory, and run the script to export Excel file containing arc damage detection results.
 
 The reference range for running these code ranges from less than 1 second to several tens of hours.
 
