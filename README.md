@@ -27,9 +27,11 @@ The operating system used in this study was Windows 10, supported by:
 - Xlwt 1.3.0
 
 ### Software Installation Instructions
-1.	Create a virtual environment using conda:
-`conda create -n alignment python=3.9`
-`conda activate alignment`
+-Create a virtual environment using conda:
+ ```bash
+conda create -n alignment python=3.9
+conda activate alignment
+```
 
 
 ## Demo
